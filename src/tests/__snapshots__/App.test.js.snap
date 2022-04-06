@@ -9,7 +9,25 @@ exports[`should take a snapshot 1`] = `
       class="App-header"
     >
       <div>
-        Form
+        <p
+          data-testid="text-content"
+        />
+        <div>
+          <form>
+            <textarea
+              cols="33"
+              placeholder="What would you like to say?"
+              rows="5"
+            />
+            <br />
+            <button
+              disabled=""
+              type="submit"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
       </div>
     </header>
   </div>
